@@ -2,7 +2,7 @@ Programming problem #1: Sales report [20 points]
 
 The programming lab assignment requires reading 12 monthly sales and generating a sales report. The report should include (1) a title for the report, (2) a tabular report of the month and sales in two columns, one for the month (January, February, etc.) and one for the corresponding sales, (2) the sales summary, e.g., month with the lowest sales, month with the highest sales, and the average sales, (3) a six-month moving average also in a tabular format, and finally (4) a tabular listing of months and sales with the sales from the highest to the lowest.
 
-File include: p1.c input.txt p1.exe
+File include: problem1.c input.txt problem1.exe
 
 Programming problem #2. Determining a football score possibilities [20 points]
 
