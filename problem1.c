@@ -23,7 +23,7 @@ void monthly_report(double sales_data[]) {  // generate and print out Monthly sa
     printf("Monthly sales report for 2022:\n");
     printf("%10s %10s\n", "Month", "Sales");
     for (int i = 0; i < MAX_MONTHS; i++) {
-        printf("%10s $%10.2f\n", months[i], sales_data[i]);
+        printf("%-10s $%-10.2f\n", months[i], sales_data[i]);
     }
 }
 
@@ -66,7 +66,7 @@ void six_month(double sales_data[]) {   //aveage of sales in each 6 months
             sum += sales_data[j];
         }
         double avg = sum / 6.0;
-        printf("%s - %s $%.2f\n", months[i], months[i + 5], avg);
+        printf("%-10s - %-10s $%.2f\n", months[i], months[i + 5], avg);
     }
 }
 
@@ -88,11 +88,11 @@ void sorted_sales(double sales_data[]) { // print out descending order list of s
     }
 
     printf("\nSales Report (Highest to Lowest):\n");
-    printf("%10s %10s\n", "Month", "Sales");
+    printf("%5s %10s\n", "Month", "Sales");
     for (int i = 0; i < MAX_MONTHS; i++) {
         for (int j = 0; j < MAX_MONTHS; j++) {
             if (sales_data[j] == sorted_sales[i]) {
-                printf("%10s $%10.2f\n", months[j], sorted_sales[i]);
+                printf("%-10s $%-10.2f\n", months[j], sorted_sales[i]);
                 break;
             }
         }
