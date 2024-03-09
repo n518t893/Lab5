@@ -8,4 +8,4 @@ Programming problem #2. Determining a football score possibilities [20 points]
 
 The programming lab assignment requires reading an NFL game score by a team and determining the scoring possibilities. A score is expected to be 2 or higher. Thus, the program should stop if a score less than 2 is entered.
 
-File include: p2.c p2.exe
+File include: problem2.c problem2.exe
